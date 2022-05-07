@@ -1,0 +1,68 @@
+* {
+    background-color:seashell;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-left: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 2.5em;
+  display: inline-block
+}
+
+.container {
+  display: inline-block;
+}
+
+.container-item {
+  background: seashell;
+  display: inline;
+  text-decoration: none;
+}
+ 
+h1 {
+  font-size: 6em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: a;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.my-photo {    
+  width: auto;
+  height: 300px;
+  border-style: ridge;
+  border-radius: 50px;
+  object-position: center;
+  margin: 25px;
+  }
+
+img {
+  width: 500px;
+  height: 800px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact_form {
+  display: block;
+  float: right;
+  width: 50%;
+  margin-right: 200px;
+}
