@@ -15,11 +15,6 @@ headernav {
   justify-content: space-between;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
 .container-item {
   background: seashell;
   text-align: center;
