@@ -4,9 +4,7 @@
     font-style: normal;
 }
 
-header nav {
-  text-align: center;
-}
+header 
 
 .container {
   display: flex;
@@ -63,16 +61,4 @@ img {
   float: right;
   width: 50%;
   margin-right: 200px;
-}
-
-h2 {
-  margin-left: 15%;
-  font-size: 3em;
-}
-
-h2+a {
-  margin-left: 15%;
-  font-weight: bold;
-  font-size: 2em;
-  text-decoration: underline;
 }

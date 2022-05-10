@@ -4,10 +4,6 @@
     font-style: normal;
 }
 
-header nav {
-  text-align: center;
-}
-
 .container {
   display: flex;
   display: inline-block;
@@ -26,6 +22,7 @@ a {
   text-align: center;
   display: inline;
   text-decoration: none;
+  text-indent: 15%;
 }
  
 h1 {
@@ -63,16 +60,4 @@ img {
   float: right;
   width: 50%;
   margin-right: 200px;
-}
-
-h2 {
-  margin-left: 15%;
-  font-size: 3em;
-}
-
-h2+a {
-  margin-left: 15%;
-  font-weight: bold;
-  font-size: 2em;
-  text-decoration: underline;
 }

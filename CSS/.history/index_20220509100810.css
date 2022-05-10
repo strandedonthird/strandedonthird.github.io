@@ -1,24 +1,21 @@
 * {
     background-color:seashell;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     font-style: normal;
 }
 
-header nav {
-  text-align: center;
+.container {
+  text-align: center !important;
+  font-size: 2.5em;
 }
 
 .container {
-  display: flex;
   display: inline-block;
-  text-align: center;
-  font-size: 2.5em;
 }
 
 a {
   color: black;
   text-decoration: none;
-  text-align: center;
 }
 
 .container-item {
@@ -48,7 +45,7 @@ p {
   }
 
 img {
-  width: 600px;
+  width: 500px;
   height: 800px;
 }
 
@@ -63,16 +60,4 @@ img {
   float: right;
   width: 50%;
   margin-right: 200px;
-}
-
-h2 {
-  margin-left: 15%;
-  font-size: 3em;
-}
-
-h2+a {
-  margin-left: 15%;
-  font-weight: bold;
-  font-size: 2em;
-  text-decoration: underline;
 }

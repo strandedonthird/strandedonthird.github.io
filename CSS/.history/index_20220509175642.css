@@ -70,9 +70,7 @@ h2 {
   font-size: 3em;
 }
 
-h2+a {
+.horiseon {
   margin-left: 15%;
-  font-weight: bold;
-  font-size: 2em;
-  text-decoration: underline;
+  font-style: bold; underline
 }
