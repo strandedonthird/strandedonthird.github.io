@@ -3,23 +3,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Michael Barrett's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="./Bootstrap/css/bootstrap.css" 
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
 </head>
-<header class="container">
-        <nav class="container-item"><a href="./index.html" alt="About Me">About Me</a></nav>
-        <nav class="container-item"><a href="./resume.html">Resume</a></nav>
-        <nav class="container-item"><a href="https://www.github.com/strandedonthird/">GitHub</a></nav>
-        <nav class="container-item"><a href="https://www.linkedin.com/in/michael-barrett/">LinkedIn</a></nav>
-        <nav class="container-item"><a href="./projects.html" alt="Projects">Projects</a></nav>
-        <nav class="container-item"><a href="./contact.html" alt="Contacts">Contact</a></nav>
-</header>
-<h1><a href="./index.html">Meet Michael</a></h1>
-<div id="contact-me">
-  <p>Michael Joseph Barrett</p>
-  <p>+1 415.933.7724</p>
-  <p><a href="mailto: michael@michaelbarrett.me">michael@michaelbarrett.me</a></p>
-  <p>Burlingame, California 94010</p>
-</div>
+<div class="card text-center">
+  <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="./index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="./resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="./projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="true"
+                  href="https://www.github.com/strandedonthird/">GitHub</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="true"
+                  href="https://www.linkedin.com/in/michael-barrett/">LinkedIn</a>
+          </li>
+        
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="./contact.html">Contact</a>
+          </li>
+      </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Michael Barrett's Portfolio</h5>
+    <p class="card-text">Full-Stack Web Developer</p>
+  </div>
+  <body>
+  
+    </div>
+    <div class="card">
+      <div class="card-body">
+    <section class="mb-4">
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Please provide me with your contact information below and I will connect with you as soon as possible.</p>
+  
+      <div class="row my-4">
+  
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" name="name" class="form-control">
+                              <label for="name" class="">Your name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" name="email" class="form-control">
+                              <label for="email" class="">Your email</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                  </div>
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" name="subject" class="form-control">
+                              <label for="subject" class="">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-12">
+  
+                          <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message">Your message</label>
+                          </div>
+  
+                      </div>
+                  </div>
+                  <!--Grid row-->
+  
+              </form>
+  
+              <div class="text-center text-md-left">
+                  <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+            <div style="text-align: right;"
+              <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Michael Barrett</p>
+              </li>
+                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>Burlingame, CA 94010</p>
+                  </li>
+  
+                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+ 1.415.9333.7724</p>
+                  </li>
+  
+                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>michael@michaelbarrett.me</p>
+                  </li>
+              </ul>
+          </div>
+          <!--Grid column-->
+  
+      </div>
+  </section>
+  </div>
+</body>
 </html>
 

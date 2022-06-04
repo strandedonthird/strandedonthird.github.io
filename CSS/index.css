@@ -37,6 +37,7 @@ h1 {
 
 p {
   font-size: 1.25em;
+  float:inline-end
 }
 
 .my-photo {    
